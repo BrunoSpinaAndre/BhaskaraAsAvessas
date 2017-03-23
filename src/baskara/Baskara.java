@@ -21,13 +21,13 @@ public class Baskara {
       
         //ENTRADA
         System.out.print("x1: ");
-        double x1 = console.nextDouble();
+        double x1 = Double.parseDouble(console.nextLine());
         
         System.out.print("x2: ");
-        double x2 = console.nextDouble();
+        double x2 =  Double.parseDouble(console.nextLine());
         
         System.out.print("C: ");
-        double C = console.nextDouble();
+        double C =  Double.parseDouble(console.nextLine());
         
         //Processamento
         double s  = x1 + x2;
